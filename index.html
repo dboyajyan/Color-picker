@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Color picker</title>
+</head>
+<body>
+ <div id="div1">
+        <div id="view"></div>
+        <div id="colors">
+            <input type="text" id="txt" value=""> <button id="copy"><i class="material-icons" style="font-size: 13px; transform: translateY(25%);position: relative;">content_copy</i></button>
+            <input class="inp" type="range" id="inp1" min="0" max="360" value="331" draggable="false">
+        <input class="inp" type="range" id="inp2" min="0" max="100" value="100" draggable="false" >
+        <input class="inp" type="range" id="inp3" min="0" max="100" value="50" draggable="false" >
+        <p id="rgb">rgb(255, 255, 255)</p>
+        <p id="hex">#ffffff</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
